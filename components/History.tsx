@@ -21,7 +21,7 @@ export default function History() {
           <div className="relative">
             <div className="relative z-20 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
               <Image 
-                src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=1200" 
+                src="/nautico-his.jpg" 
                 alt="História do Náutico" 
                 width={600} 
                 height={800}

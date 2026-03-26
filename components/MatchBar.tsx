@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function MatchBar() {
   return (
     <section className="w-full bg-nautico-gray/30 border-b border-gray-100 py-6 relative z-[50]">
-      <div className="max-w-[1400px] mx-auto px-6 flex items-center justify-between">
+      <div className="max-w-350 mx-auto px-6 flex items-center justify-between">
         
         {/* LADO ESQUERDO: STATUS DO JOGO */}
         <div className="flex items-center gap-4">
@@ -16,7 +16,7 @@ export default function MatchBar() {
           </div>
           <div className="hidden md:block h-4 w-[1px] bg-gray-200"></div>
           <p className="hidden md:block text-[11px] font-bold text-gray-400 uppercase tracking-tight">
-            Copa do Nordeste • Aflitos
+            Série B
           </p>
         </div>
 
@@ -29,19 +29,19 @@ export default function MatchBar() {
           
           <div className="flex flex-col items-center">
             <span className="text-[10px] font-black text-nautico-red uppercase">VS</span>
-            <span className="text-[9px] font-bold text-nautico-red uppercase">28/03 • 16:30</span>
+            <span className="text-[9px] font-bold text-nautico-red uppercase">01/04 • 19:00</span>
           </div>
           
           <div className="flex items-center gap-3">
-            <div className="w-7 h-7 bg-gray-100 rounded-full flex items-center justify-center text-[10px] text-gray-400 font-bold shadow-sm border border-gray-50">V</div>
-            <span className="text-sm font-black text-[18px] text-nautico-dark tracking-tighter">Visitante</span>
+            <Image src="/atletico-go-logo.svg" alt="Atlético-GO" width={28} height={28} className="w-7 h-7 rounded-full flex items-center justify-center shadow-md" />
+            <span className="text-sm font-black text-[18px] text-nautico-dark tracking-tighter">Atlético-GO</span>
           </div>
         </div>
 
         {/* DIREITA: CTA DISCRETO */}
         <div className="flex items-center gap-4">
           <button className="bg-nautico-red text-white px-5 py-2 rounded-full text-[10px] font-black uppercase tracking-widest transition-all shadow-md active:scale-95">
-            Ingressos
+            <a href="https://nautico.futebolcard.com/" target="_blank" rel="noopener noreferrer">Ingressos</a>
           </button>
         </div>
 

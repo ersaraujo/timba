@@ -10,39 +10,39 @@ export default function TVTimba() {
       duracao: "14:08"
     },
     {
-      id: "NisD_LagnC8",
-      titulo: "Vitória-PE 2 x 3 Náutico - Melhores Momentos",
-      thumb: "https://i.ytimg.com/vi/NisD_LagnC8/maxresdefault.jpg",
+      id: "VpxjObtePSs",
+      titulo: "Sport 3 x 3 Náutico - Gols do Náutico",
+      thumb: "https://i.ytimg.com/vi/VpxjObtePSs/maxresdefault.jpg",
       categoria: "Gols",
       duracao: "11:05"
     },
     {
       id: "c_tb69kmHoE",
-      titulo: "Carnaval - Timbu Coroado 2025",
+      titulo: "Timbu Coroado 2025",
       thumb: "https://i.ytimg.com/vi/c_tb69kmHoE/maxresdefault.jpg",
       categoria: "Social",
       duracao: "0:14"
     },
     // Adicione mais 3 para fechar os 6 cards
     {
-      id: "video4",
-      titulo: "Entrevista Exclusiva: Novos Rumos para 2026",
-      thumb: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
-      categoria: "Entrevista",
+      id: "D3XQUWYS8t4",
+      titulo: "Coletiva: Paulo Sérgio",
+      thumb: "https://i.ytimg.com/vi/D3XQUWYS8t4/maxresdefault.jpg",
+      categoria: "Coletiva",
       duracao: "08:45"
     },
     {
-      id: "video5",
-      titulo: "O Caldeirão: A Força dos Aflitos",
-      thumb: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=800",
-      categoria: "Especial",
+      id: "tLYSuICWAsk",
+      titulo: "Coletiva: Guilherme dos Anjos",
+      thumb: "https://i.ytimg.com/vi/tLYSuICWAsk/maxresdefault.jpg",
+      categoria: "Coletiva",
       duracao: "12:20"
     },
     {
-      id: "video6",
-      titulo: "Treino Aberto: Torcida comparece em peso",
-      thumb: "https://images.unsplash.com/photo-1522770179533-24471fcdba45?q=80&w=800",
-      categoria: "Torcida",
+      id: "_G11pzYIekc",
+      titulo: "Vitoria/PE 2 x 3 Náutico - Bastidores",
+      thumb: "https://i.ytimg.com/vi/_G11pzYIekc/maxresdefault.jpg",
+      categoria: "Bastidores",
       duracao: "05:15"
     }
   ];

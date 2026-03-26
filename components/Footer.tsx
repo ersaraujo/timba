@@ -64,7 +64,7 @@ export default function Footer() {
 
           <div className="flex flex-col gap-4">
             <h4 className="text-white font-bold tracking-tighter text-lg mb-2">Serviços</h4>
-            {['Ingressos', 'Timbu Shop', 'TV Timba', 'Licenciamento'].map(link => (
+            {['Ingressos', 'Timbushop', 'TV Timba', 'Licenciamento'].map(link => (
               <a key={link} href="#" className="text-gray-400 hover:text-white text-sm font-medium transition-colors">{link}</a>
             ))}
           </div>

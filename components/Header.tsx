@@ -28,11 +28,12 @@ export default function Header() {
 
           <div className="flex items-center">
             <ul className="hidden md:flex gap-8 text-:18px font-bold text-nautico-gray tracking-tight">
-              <li className="hover:text-nautico-red cursor-pointer">Sócio Timbu</li>
-              <li className="hover:text-nautico-red cursor-pointer">Ingressos</li>
-              <li className="hover:text-nautico-red cursor-pointer">Timbuzone</li>
-              <li className="hover:text-nautico-red cursor-pointer">Timbushop</li>
-              <li className="hover:text-nautico-red cursor-pointer">TVTimba</li>
+              {/* Links do menu principal (ABRE EM OUTRA ABA*/}
+              <li className="hover:text-nautico-red cursor-pointer"><a href="https://socio-nautico.futebolcard.com/" target="_blank" rel="noopener noreferrer">Sócio Timbu</a></li>
+              <li className="hover:text-nautico-red cursor-pointer"><a href="https://nautico.futebolcard.com/" target="_blank" rel="noopener noreferrer">Ingressos</a></li>
+              <li className="hover:text-nautico-red cursor-pointer"><a href="https://timbuzone.com.br/" target="_blank" rel="noopener noreferrer">Timbuzone</a></li>
+              <li className="hover:text-nautico-red cursor-pointer"><a href="https://www.timbushopoficial.com.br/" target="_blank" rel="noopener noreferrer">Timbushop</a></li>
+              <li className="hover:text-nautico-red cursor-pointer"><a href="https://www.youtube.com/@TVTimba/" target="_blank" rel="noopener noreferrer">TVTimba</a></li>
             </ul>
           </div>
 

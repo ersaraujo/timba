@@ -16,48 +16,48 @@ export default function MatchSchedule() {
 
   const jogos = [
     { 
-      campeonato: "Copa do Nordeste", 
+      campeonato: "Série B", 
       categoria: "Time Masculino", 
-      rodada: "Rodada 6", 
-      data: "Sábado, 28/03, 16:30 h", 
-      estadio: "Estádio dos Aflitos", 
-      mandante: "Náutico", 
-      visitante: "Sport",
-      logoMandante: "/cnc-logo-color.svg",
-      logoVisitante: "/sport-logo.svg"
-    },
-    { 
-      campeonato: "Campeonato Pernambucano", 
-      categoria: "Time Masculino", 
-      rodada: "Final - Volta", 
-      data: "Quarta, 01/04, 21:30 h", 
-      estadio: "Arena de Pernambuco", 
-      mandante: "Santa Cruz", 
+      rodada: "Rodada 2", 
+      data: "Quarta-feira, 01/03, 19:00 h", 
+      estadio: "Antônio Accioly", 
+      mandante: "Atlético-GO", 
       visitante: "Náutico",
-      logoMandante: "/santa-cruz-logo.svg",
+      logoMandante: "/atletico-go-logo.svg",
       logoVisitante: "/cnc-logo-color.svg"
     },
     { 
-      campeonato: "Copa do Brasil", 
+      campeonato: "Série B", 
       categoria: "Time Masculino", 
-      rodada: "Segunda Fase", 
-      data: "Domingo, 05/04, 16:00 h", 
-      estadio: "Estádio dos Aflitos", 
+      rodada: "Rodada 3", 
+      data: "Sábado, 04/04, 18:00 h", 
+      estadio: "Aflitos", 
       mandante: "Náutico", 
-      visitante: "Ceará",
+      visitante: "Ponte Preta",
       logoMandante: "/cnc-logo-color.svg",
-      logoVisitante: "/ceara-logo.svg"
+      logoVisitante: "/ponte-preta-logo.svg"
     },
     { 
-      campeonato: "Série C", 
+      campeonato: "Série B", 
       categoria: "Time Masculino", 
-      rodada: "Rodada 1", 
-      data: "Sábado, 12/04, 17:00 h", 
+      rodada: "Rodada 4", 
+      data: "Sábado, 11/04, 20:30 h", 
+      estadio: "Castelão", 
+      mandante: "Ceará", 
+      visitante: "Náutico",
+      logoMandante: "/ceara-logo.svg",
+      logoVisitante: "/cnc-logo-color.svg"
+    },
+    { 
+      campeonato: "Série B", 
+      categoria: "Time Masculino", 
+      rodada: "Rodada 5", 
+      data: "Sábado, 18/04, 18:00 h", 
       estadio: "Estádio dos Aflitos", 
       mandante: "Náutico", 
-      visitante: "ABC",
+      visitante: "São Bernardo",
       logoMandante: "/cnc-logo-color.svg",
-      logoVisitante: "/abc-logo.svg"
+      logoVisitante: "/sao-bernardo-logo.svg"
     },
   ];
 
@@ -97,12 +97,12 @@ export default function MatchSchedule() {
           {jogos.map((j, i) => (
             <div 
               key={i} 
-              className="flex-none w-[85vw] md:w-[400px] snap-start flex flex-col h-full group cursor-pointer shadow-sm hover:shadow-xl transition-all duration-300 rounded-[2.5rem] overflow-hidden border border-gray-100"
+              className="flex-none w-[85vw] md:w-[400px] snap-start flex flex-col h-full group cursor-pointer shadow-xs transition-all duration-300 rounded-[2.5rem] overflow-hidden border border-gray-100"
             >
               {/* TOPO: ÁREA ESCURA (CONFRONTO) */}
               <div className="bg-nautico-red p-10 flex items-center justify-between relative">
                 <div className="flex flex-col items-center gap-3 flex-1">
-                  <Image src={j.logoMandante} alt={j.mandante} width={64} height={64} className="w-16 h-16 object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" />
+                  <Image src={j.logoMandante} alt={j.mandante} width={64} height={64} className="w-16 h-16 object-contain drop-shadow-[0_0_20px_rgba(255,255,255,0.8)]" />
                   <span className="text-white text-[10px] font-bold tracking-tighter text-center uppercase">{j.mandante}</span>
                 </div>
 
@@ -111,7 +111,7 @@ export default function MatchSchedule() {
                 </div>
 
                 <div className="flex flex-col items-center gap-3 flex-1">
-                  <Image src={j.logoVisitante} alt={j.visitante} width={64} height={64} className="w-16 h-16 object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" />
+                  <Image src={j.logoVisitante} alt={j.visitante} width={64} height={64} className="w-16 h-16 object-contain drop-shadow-[0_0_20px_rgba(255,255,255,0.8)]" />
                   <span className="text-white text-[10px] font-bold tracking-tighter text-center uppercase">{j.visitante}</span>
                 </div>
               </div>
